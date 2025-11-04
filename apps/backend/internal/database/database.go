@@ -13,8 +13,8 @@ import (
 	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/jackc/pgx/v5/tracelog"
 	"github.com/newrelic/go-agent/v3/integrations/nrpgx5"
-	"github.com/programmerjide/go-taskify/internal/config"
-	loggerConfig "github.com/programmerjide/go-taskify/internal/logger"
+	"github.com/programmerjide/taskify/internal/config"
+	loggerConfig "github.com/programmerjide/taskifyternal/logger"
 	"github.com/rs/zerolog"
 )
 

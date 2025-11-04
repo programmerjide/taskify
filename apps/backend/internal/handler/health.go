@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/programmerjide/go-taskify/internal/middleware"
-	"github.com/programmerjide/go-taskify/internal/server"
+	"github.com/programmerjide/taskify/internal/middleware"
+	"github.com/programmerjide/taskifyternal/server"
 
 	"github.com/labstack/echo/v4"
 )

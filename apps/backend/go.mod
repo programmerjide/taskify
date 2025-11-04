@@ -1,4 +1,4 @@
-module github.com/programmerjide/go-taskify
+module github.com/programmerjide/taskify
 
 go 1.24.5
 

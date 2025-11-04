@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "gen": "tsx src/gen.ts",
-    "build": "tsc && tsc-alias",
-    "dev": "wait-on ../zod/dist/index.js && tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
+    "build": "node init && tsc && tsc-alias",
+    "dev": "node init && wait-on ../zod/dist/index.js && tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
     "clean": "rimraf dist tsconfig.tsbuildinfo .turbo node_modules"
   },
   "exports": {

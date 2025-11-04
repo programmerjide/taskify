@@ -19,9 +19,9 @@ tasks:
     internal: true
 
   run:
-    desc: run the cmd/go-taskify application
+    desc: run the cmd/taskify application
     cmds:
-      - go run ./cmd/go-taskify
+      - go run ./cmd/taskify
 
   migrations:new:
     desc: create a new database migration

@@ -5,10 +5,10 @@ import (
 
 	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
-	"github.com/programmerjide/go-taskify/internal/handler"
-	"github.com/programmerjide/go-taskify/internal/middleware"
-	"github.com/programmerjide/go-taskify/internal/server"
-	"github.com/programmerjide/go-taskify/internal/service"
+	"github.com/programmerjide/taskify/internal/handler"
+	"github.com/programmerjide/taskifyternal/middleware"
+	"github.com/programmerjide/taskifyternal/server"
+	"github.com/programmerjide/taskifyternal/service"
 	"golang.org/x/time/rate"
 )
 

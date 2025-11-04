@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"github.com/programmerjide/go-taskify/internal/server"
-	"github.com/programmerjide/go-taskify/internal/service"
+	"github.com/programmerjide/taskify/internal/server"
+	"github.com/programmerjide/taskifyternal/service"
 )
 
 type Handlers struct {

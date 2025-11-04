@@ -8,8 +8,8 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/programmerjide/go-taskify/internal/config"
-	"github.com/programmerjide/go-taskify/internal/database"
+	"github.com/programmerjide/taskify/internal/config"
+	"github.com/programmerjide/taskifyternal/database"
 	"github.com/rs/zerolog"
 	"github.com/stretchr/testify/require"
 	"github.com/testcontainers/testcontainers-go"

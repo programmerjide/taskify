@@ -4,8 +4,8 @@
   "description": "Package which exports all Boilerplate zod schemas and types",
   "type": "module",
   "scripts": {
-    "build": "tsc && tsc-alias",
-    "dev": "tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
+    "build": "node init && tsc && tsc-alias",
+    "dev": "node init && tsc && (concurrently \"tsc -w\" \"tsc-alias -w\")",
     "clean": "rimraf dist tsconfig.tsbuildinfo .turbo node_modules"
   },
   "exports": {

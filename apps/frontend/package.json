@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "wait-on ../../packages/openapi/dist/index.js && vite",
-    "build": "bun install && tsc && env-cmd -f .env.local vite build",
+    "dev": "node init && wait-on ../../packages/openapi/dist/index.js && vite",
+    "build": "node init && bun install && tsc && env-cmd -f .env.local vite build",
     "test": "vite test",
     "preview": "vite preview",
     "lint:fix": "eslint src --fix",
