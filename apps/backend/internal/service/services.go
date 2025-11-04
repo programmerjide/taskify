@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/programmerjide/go-taskify/internal/lib/job"
-	"github.com/programmerjide/go-taskify/internal/repository"
-	"github.com/programmerjide/go-taskify/internal/server"
+	"github.com/programmerjide/taskify/internal/lib/job"
+	"github.com/programmerjide/taskifyternal/repository"
+	"github.com/programmerjide/taskifyternal/server"
 )
 
 type Services struct {

@@ -8,7 +8,7 @@ This backend follows clean architecture principles with clear separation of conc
 
 ```
 backend/
-├── cmd/go-taskify/        # Application entry point
+├── cmd/taskify/        # Application entry point
 ├── internal/                  # Private application code
 │   ├── config/               # Configuration management
 │   ├── database/             # Database connections and migrations

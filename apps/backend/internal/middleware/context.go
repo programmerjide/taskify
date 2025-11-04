@@ -5,8 +5,8 @@ import (
 
 	"github.com/labstack/echo/v4"
 	"github.com/newrelic/go-agent/v3/newrelic"
-	"github.com/programmerjide/go-taskify/internal/logger"
-	"github.com/programmerjide/go-taskify/internal/server"
+	"github.com/programmerjide/taskify/internal/logger"
+	"github.com/programmerjide/taskifyternal/server"
 	"github.com/rs/zerolog"
 )
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/hibiken/asynq"
-	"github.com/programmerjide/go-taskify/internal/config"
-	"github.com/programmerjide/go-taskify/internal/lib/email"
+	"github.com/programmerjide/taskify/internal/config"
+	"github.com/programmerjide/taskifyternal/lib/email"
 	"github.com/rs/zerolog"
 )
 

@@ -1,6 +1,6 @@
 package repository
 
-import "github.com/programmerjide/go-taskify/internal/server"
+import "github.com/programmerjide/taskify/internal/server"
 
 type Repositories struct{}
 

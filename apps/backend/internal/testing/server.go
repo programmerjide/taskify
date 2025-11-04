@@ -3,9 +3,9 @@ package testing
 import (
 	"time"
 
-	"github.com/programmerjide/go-taskify/internal/config"
-	"github.com/programmerjide/go-taskify/internal/database"
-	"github.com/programmerjide/go-taskify/internal/server"
+	"github.com/programmerjide/taskify/internal/config"
+	"github.com/programmerjide/taskifyternal/database"
+	"github.com/programmerjide/taskifyternal/server"
 	"github.com/rs/zerolog"
 )
 

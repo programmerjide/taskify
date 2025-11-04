@@ -6,9 +6,9 @@ import (
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/pkg/errors"
-	"github.com/programmerjide/go-taskify/internal/errs"
-	"github.com/programmerjide/go-taskify/internal/server"
-	"github.com/programmerjide/go-taskify/internal/sqlerr"
+	"github.com/programmerjide/taskify/internal/errs"
+	"github.com/programmerjide/taskifyternal/server"
+	"github.com/programmerjide/taskifyternal/sqlerr"
 	"github.com/rs/zerolog"
 )
 

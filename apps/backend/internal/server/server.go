@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/newrelic/go-agent/v3/integrations/nrredis-v9"
-	"github.com/programmerjide/go-taskify/internal/config"
-	"github.com/programmerjide/go-taskify/internal/database"
-	"github.com/programmerjide/go-taskify/internal/lib/job"
-	loggerPkg "github.com/programmerjide/go-taskify/internal/logger"
+	"github.com/programmerjide/taskify/internal/config"
+	"github.com/programmerjide/taskifyternal/database"
+	"github.com/programmerjide/taskifyternal/lib/job"
+	loggerPkg "github.com/programmerjide/taskifyternal/logger"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog"
 )
